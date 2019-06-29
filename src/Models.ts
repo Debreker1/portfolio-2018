@@ -36,5 +36,23 @@ export const projects = [
         "Een project in het eerste jaar van Hogeschool Rotterdam om een applicatie te maken voor het visualiseren van diefstal",
         "project3.png",
         "https://github.com/Debreker1/project3"
+    ),
+    new Project(
+        "Online webshop - API",
+        "Webshop project om online drank te kunnen bestellen.",
+        "project3.png",
+        "https://github.com/Debreker1/DrankReus-api"
+    ),
+    new Project(
+        "Online webshop - Front-end",
+        "Webshop project om online drank te kunnen bestellen.",
+        "project3.png",
+        "https://github.com/Debreker1/drankreus-client"
+    ),
+    new Project(
+        "Weather Wars",
+        "Decentralized applicatie dat gebruik maakt van Ethereum om online weer weddenschappen te spelen",
+        "project3.png",
+        "https://github.com/Debreker1/WeatherWars"
     )
 ]
