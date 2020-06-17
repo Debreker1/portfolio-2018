@@ -18,10 +18,11 @@ class WorkElement extends React.Component<IProps>
     {
         return(
             <li key={this.props.key}>
-                <a href={this.props.project.link} className="wrapper" target="__blank"><span className="text"><strong>{this.props.project.header}</strong>
+                <a href={this.props.project.link} className="wrapper" target="__blank"><span className="myWorkText"><strong>{this.props.project.header}</strong>
                 <p>
                     {this.props.project.body}
-                </p></span><img src={"img/mywork/" + this.props.project.img} className="thumbnail"/>
+                </p></span>
+                {/* <img src={"img/mywork/" + this.props.project.img} className="thumbnail"/> */}
                 </a>
             </li>
         )

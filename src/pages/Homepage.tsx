@@ -11,8 +11,8 @@ class Homepage extends React.Component {
                     <div className="row bigger-text">
                         <div className="large-8 columns">
                             <p>
-                                Welkom op mijn website! Ik ben Ryan Graute en ik vind het leuk om code te schrijven! Want wat is er mooier dan van je hobby je werk te maken!
-				                momenteel ben ik een student op <a href="http://www.hr.nl" target="__blank">Hogeschool Rotterdam</a> in Rotterdam.
+                                Welkom op mijn website! Ik ben Ryan Graute en ik vind het leuk om code te schrijven! Want wat is er mooier dan van je hobby je werk te maken?
+				                Momenteel ben ik een student op <a href="http://www.hr.nl" target="__blank">Hogeschool Rotterdam</a> in Rotterdam.
                             </p>
                             <p>
                                 Op deze website kunt u wat van mijn werk zien op de <NavLink to="/mijnwerk">mijn werk</NavLink> pagina. Op deze pagina kunt u ook mijn CV vinden.
@@ -26,7 +26,7 @@ class Homepage extends React.Component {
                             <img src="/img/ik.jpeg" alt="ik" id="ik-foto" />
                         </div>
                         <div className="cv">
-                            <a href="downloads/CV Ryan Graute.pdf" target="__blank"><img id="cv-icon" src="/img/cv-icon.png" alt="CV icon" />Mijn CV</a>
+                            <a href="downloads/cv-ryan-graute.pdf" target="__blank"><img id="cv-icon" src="/img/cv-icon.png" alt="CV icon" />Mijn CV</a>
                         </div>
                     </div>
                 </div>
